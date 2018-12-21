@@ -9,16 +9,20 @@ html, body {
 
 .container {
   // box-shadow: 0 0 1000px rgba(251, 176, 59, .2);
-  min-height: 100vh;
 
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  align-self: center;
 }
 
-.column {
-  flex-direction: column;
+.bulb {
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 180px;
+
+  // @media screen and (max-width: )
 }
 
 .brand {
