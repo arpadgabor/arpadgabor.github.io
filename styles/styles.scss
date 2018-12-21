@@ -26,18 +26,24 @@ html, body {
 }
 
 .brand {
-
+  text-align: center;
   img {
     width: 100%;
+    margin-bottom: 2em;
   }
 }
 
-.contact {
+a {
   text-align: center;
-  
-  bottom: 2em;
-  
-  a {
+  color: $primary;
+  padding-bottom: 1em;
+
+  border-bottom: 2px solid transparent;
+  transition: all .3s cubic-bezier(.05,.86,.26,.97);
+  &:hover {
+    padding-bottom: .4em;
     color: $primary;
+    text-decoration: none;
+    border-bottom: 2px solid $primary;
   }
 }

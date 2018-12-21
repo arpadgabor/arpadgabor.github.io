@@ -52,16 +52,28 @@ html, body {
   width: 180px;
 }
 
+.brand {
+  text-align: center;
+}
+
 .brand img {
   width: 100%;
+  margin-bottom: 2em;
 }
 
-.contact {
+a {
   text-align: center;
-  bottom: 2em;
+  color: #fbb03b;
+  padding-bottom: 1em;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.3s cubic-bezier(0.05, 0.86, 0.26, 0.97);
+  transition: all 0.3s cubic-bezier(0.05, 0.86, 0.26, 0.97);
 }
 
-.contact a {
+a:hover {
+  padding-bottom: .4em;
   color: #fbb03b;
+  text-decoration: none;
+  border-bottom: 2px solid #fbb03b;
 }
 /*# sourceMappingURL=styles.css.map */
