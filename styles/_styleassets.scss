@@ -10,3 +10,8 @@ $secondary: rgb(67, 67, 69); // Also used for text.
 .direction-column {
   flex-direction: column;
 }
+
+.vertical-center {
+  display: flex;
+  align-self: center;
+}
