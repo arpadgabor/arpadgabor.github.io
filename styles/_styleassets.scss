@@ -1,0 +1,12 @@
+$primary: rgb(251, 176, 59);
+$primary-dark: rgb(92, 57, 0);
+$secondary: rgb(67, 67, 69); // Also used for text.
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.direction-column {
+  flex-direction: column;
+}

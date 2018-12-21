@@ -1,3 +1,44 @@
+.justify-content-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
+.direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
+html, body {
+  min-height: 100vh;
+  min-height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  padding-top: 4em;
+}
+
+.brand {
+  width: auto;
+  margin-bottom: 4em;
+}
+
+.brand img {
+  width: 420px;
+}
+
+.short-info {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 4em;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,31 @@
-$primary: #fbb03b;
-$primary-dark: #5c3900;
-$secondary: #434345; // Also used for text.
+@import '_styleassets.scss';
+
+html, body {
+  min-height: 100vh;
+  min-height: 100%;
+}
+
+.container {
+  // box-shadow: 0 0 1000px rgba(251, 176, 59, .2);
+  min-height: 100vh;
+  padding-top: 4em;
+}
+
+.brand {
+  width: auto;
+  margin-bottom: 4em;
+
+  img {
+    width: 420px;
+  }
+}
+
+.short-info {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  
+  margin-top: 4em;
+}
